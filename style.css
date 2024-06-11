@@ -2355,7 +2355,7 @@ body .container .card .box .content a:hover {
     /* background: linear-gradient(white, #2096B2); */
     background-color: #2096B2;
     color: white;
-    font-weight: 200;
+    font-weight: 600;
     
 }
 
@@ -2420,5 +2420,18 @@ body .container .card .box .content a:hover {
 
     100% {
         opacity: 1;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .ins{
+        display: none;
+    }
+}
+
+@media (min-width: 991px) {
+    .insu{
+       display: none;
     }
 }
